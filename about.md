@@ -4,7 +4,7 @@ title: "Über"
 permalink: /about/
 backgrounds:
     - /assets/images/nordlys.jpg
-thumb: /assets/images/nordlys_thumb.jpg
+thumb: /assets/images/lc.jpg
 ---
 
 
