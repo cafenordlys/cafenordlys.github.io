@@ -7,6 +7,7 @@ backgrounds:
 thumb: /assets/images/lc.jpg
 ---
 
+![Crossed mics](/assets/images/mics.gif)
 
 Café Nordlys ist eine dänisch-deutsche Vokalgruppe, die Live Vocal-Jazz auf Basis des großen dänischen Liederbuches bietet. Die Gruppe vereint bekannten Volksmelodie mit den unverwechselbaren Harmonien, dem pulsierenden Rhythmus und improvisatorischen Charakter der Jazzmusik.
 
