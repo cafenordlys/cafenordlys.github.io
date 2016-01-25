@@ -15,4 +15,23 @@ Das Repertoire umfasst sowohl traditionelle Weihnachtslieder, Jazz-Standards so 
 
 ## Auszug
 
-* …
+### Forår/Sommer (Frühling/Sommer):
+
+* En yndig og frydefuld sommertid
+* I skoven skulle være gilde 
+* Forelsket i København
+* Dansevisen 
+* Vårvisen 
+* I skovens dybe stille ro
+* You raise me up 
+
+### Jul (Weihnachten):
+
+* Nu er det jul igen (Swing Swing Swing) 
+* Over the Rainbow (überm Regenbogen) 
+* Nu har vi altså jul igen
+* Når du ser et stjerneskud
+* Bjældeklang/Jingle Bells
+* The Christmas Song 
+* Glade Jul/Stille Nacht
+* White Christmas
