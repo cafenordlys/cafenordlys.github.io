@@ -3,8 +3,8 @@ layout: page
 title: "Über"
 permalink: /about/
 backgrounds:
-    - /cafenordlys/assets/images/nordlys.jpg
-thumb: /cafenordlys/assets/images/nordlys_thumb.jpg
+    - /assets/images/nordlys.jpg
+thumb: /assets/images/nordlys_thumb.jpg
 ---
 
 

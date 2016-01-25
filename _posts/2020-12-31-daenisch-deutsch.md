@@ -3,7 +3,7 @@ layout: post
 title: "Dänisch und Deutsch"
 date: 2016-01-24
 backgrounds:
-    - /cafenordlys/assets/images/nordlys.jpg
+    - /assets/images/nordlys.jpg
 thumb: https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Flag_of_Germany_(3-2_aspect_ratio).svg/2000px-Flag_of_Germany_(3-2_aspect_ratio).svg.png
 categories: about jazz 
 tags: jazz about

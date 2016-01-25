@@ -3,7 +3,7 @@ layout: post
 title: "Dansk og Tysk"
 date: 2016-01-23
 backgrounds:
-    - /cafenordlys/assets/images/nordlys.jpg
+    - /assets/images/nordlys.jpg
 thumb: http://vignette2.wikia.nocookie.net/guns/images/b/bb/Dannebrog.gif/revision/latest?cb=20070407104036
 categories: travel city
 tags: work business metropolis

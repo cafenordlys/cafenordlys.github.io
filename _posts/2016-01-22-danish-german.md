@@ -3,7 +3,7 @@ layout: post
 title: "Danish and German"
 date: 2016-01-22
 backgrounds:
-    - /cafenordlys/assets/images/nordlys.jpg
+    - /assets/images/nordlys.jpg
 thumb: https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png
 categories: travel city
 tags: japan winter spring metropolis
