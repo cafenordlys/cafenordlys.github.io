@@ -2,7 +2,7 @@
 name: "Café Nordlys"
 description: 'A minimal, single-column Jekyll theme that provides an immersive read experience for your readers'
 #port: 4001
-baseurl: '/' # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 url: 'http://cafenordlys.github.io/' # the base hostname & protocol for your site
 
 # Build settings
