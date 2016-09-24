@@ -1,35 +1,29 @@
 <!DOCTYPE html>
+<!--
+  Original Design: Spectral by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Jekyll build mod
+-->
 <html>
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
 
-    {% include loader.html %}
-        <a href="/">
-            <div id="sitename">
-                Café Nordlys
-                <em id="subtitle">Jazz dänisch-deutsch</em>
-            </div>
-        </a>
-    <main id="sb-site">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
 
-        <div class="container">
-            <div class="wrapper">
-                {{ content }}
-            </div>
+      {% include header.html %}
 
+      {{ content }}
 
-            {% include next.html %}
+      {% include footer.html %}
 
-        </div>
+      {% include scripts.html %}
 
-    </main>
+    </div>
 
-    {% include sidebar.html %}
-
-    {% include js.html %}
-
-</body>
+  </body>
 
 </html>

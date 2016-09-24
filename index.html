@@ -1,37 +1,166 @@
 ---
-layout: default
-home: true
-backgrounds:
-    - /assets/images/nordlys.jpg
+layout: landing
 ---
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>{{ site.title }}</h2>
+							<p>{{ site.description | markdownify }}</p>
+							<ul class="actions">
+								<li><a href="#cta" class="button special">Kontakt</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Weiter</a>
+					</section>
 
-<div class="home">
-    <ul class="post-list">
-        {% if site.pagination %}
-        {% assign source = paginator.posts %}
-        {% else %}
-        {% assign source = site.posts %}
-        {% endif %}
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Café Nordlys - eine dänisch-deutsche Vokalgruppe</h2>
+								<p>Wir spielen Live Vocal-Jazz auf Basis des großen dänischen Liederbuchs, vereinen bekannte Volksmelodien mit den unverwechselbaren Harmonien, dem pulsierenden Rhythmus und improvisatorischen Charakter der Jazzmusik.</p>
+							</header>
+							<!--ul class="icons major">
+								<li><span class="icon fa-music major style1"><span class="label">Music</span></span></li>
+								<!-- <li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-sign-language major style3"><span class="label">Dolor</span></span></li> -->
+							</ul-->
+											<img  style="height:225px; width: 338px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Denmark_and_Germany.png" alt="DänischDeutsch" />
+						</div>
+					</section>
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Lotte Sødring Nielsen<br />
+								[Sopran]</h2>
+								<p></p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>Cordula Förster<br />
+								[Alt]</h2>
+								<p></p>
+							</div>
+						</section>
+						<!--section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+								<h2>Dieter<br />
+								[Gitarre]</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section-->
+					</section>
 
-        {% for post in source %}
-        <li>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-link">
-                <div class="post-list-info">
-                    <h2 class="post-list-title">{{ post.title }}</h2>
-                    <!--span class="post-list-meta">{{ post.date | date: "%B %-d, %Y" }}</span-->
-                </div>
-            </a>
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Repertoire und Referenzen</h2>
 
-            <img src="{{ post.thumb }}" class="post-list-thumb" />
-        </li>
-        {% endfor %}
-    </ul>
-
-    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-    <!-- <p class="rss-subscribe">
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-            Subscribe via RSS
-            <i class="icon ion-social-rss"></i>
-        </a>
-    </p> -->
-</div>
+								<p>Das Repertoire umfasst sowohl traditionelle Weihnachtslieder, Jazz-Standards so wie andere saisonale, bekannte Melodien (von eindrucksvollen und verspielten Frühlings- und Sommerliedern bis zu den melancholischen Volksweisen des Herbsts). Wir decken damit alle musikalischen Kombinationen ab und können immer unsere Setliste je nach Wunsch, festlichem Anlass und musikalischem Kontext anpassen; ob es sich um leichte Hintergrund Unterhaltung oder eine aktuelle Konzertaufführung handelt.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-sun-o">
+									<h3>Forår/Sommer (Frühling/Sommer)</h3>
+									<p>
+									  [Auszug]<br>
+									  - Forelsket i København<br>
+									  &nbsp;&nbsp;&nbsp;Verliebt in Kopenhagen<br>
+									  - En yndig og frydefuld sommertid<br>
+									  - I skoven skulle være gilde<br>
+									  - Dansevisen<br>
+									  - Vårvisen<br>
+									  - I skovens dybe stille ro<br>
+									  - Du løfter mig/You raise me up<br>
+									  - Over the Rainbow<br>
+									  - Jeg snakker med mig selv<br>
+									  - Hvad skal vi med kvinder<br>
+									  - Midsommervisen<br>
+									  - I skoven skulle være gilde
+									</p>									
+								
+								</li>
+								<li class="icon fa-asterisk">
+									<h3>Jul<br>(Weihnachten)</h3>
+									<p>
+									  [Auszug]<br>
+									  - Nu er det jul igen<br>
+									  - Nu har vi altså jul igen<br>
+									  - Når du ser et stjerneskud<br>
+									  &nbsp;&nbsp;&nbsp;When you wish upon a star<br>
+									  - Bjældeklang/Jingle Bells<br>
+									  - The Christmas Song<br>
+									  - Glade Jul/Stille Nacht<br>
+									  - White Christmas<br>
+									  - Lad det sne/Let it snow<br>
+									  - Have yourself a merry little<br>
+									  &nbsp;&nbsp;&nbsp;Christmas<br>
+									  - Rudolf med den røde tud<br>
+									  - En rose så jeg skyde<br>
+									  - Dejlig er jorden<br>
+									  - På loftet sidder nissen
+									</p>
+								</li>
+								<li class="icon fa-retweet">
+									<h3>Referenzen</h3>
+									<p>
+										Dänisches Generalkonsulat München<br>
+										VHS München<br>
+										Seidlvilla<br>
+										Hoffmann Personal<br>
+										Johanneskirche am Preysingplatz<br>
+										Matthäuskirche am Sendlinger Tor<br>
+										Georg Jensen, München<br>
+										Dänischer Stammtisch in München <br>
+										Nürnberg Heimatmuseum<br>
+										Finanzministerium Nürnberg<br>
+										Blaue Nacht der Kunst und Kultur Nürnberg<br>
+										Galerie Stihl, Waiblingen<br>
+										Dänisches Konsulat Nürnberg
+									</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>Audiobeispiele auf Anfrage</h3>
+									<p>Möchten Sie mal reinhören? Schicken Sie uns einfach unverbindlich eine Email und wir senden Ihnen eine Audiodatei zu.</p>
+								</li>
+								<!--li class="icon fa-heart-o">
+									<h3>Aenean Primis</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Tortor Ut</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li-->
+							</ul>
+						</div>
+					</section>
+					<section class="wrapper style2">
+						<div class="inner">
+						<div class="box alt">
+							<div class="row uniform 50%">
+								<div class="4u"><span class="image fit"><img src="images/cafe_nordlys_georg_jensen3.jpg" alt=""></span></div>
+								<div class="4u"><span class="image fit"><img src="images/seidlvilla2_sommer2014.jpg" alt=""></span></div>
+								<div class="4u"><span class="image fit"><img src="images/unnamed.jpg" alt=""></span></div>
+								<div class="4u"><span class="image fit"><img src="images/Cafe_Nordlys_17.jpg" alt=""></span></div>
+							</div>
+						</div>
+						</div>
+						
+					</section>
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Kontakt und Buchung</h2>
+								<p>Sie erreichen uns jederzeit unter</p>
+								<blockquote><a href="mailto:info@cafenordlys.de">info (at) cafenordlys.de</a></blockquote>
+								<p>Wir freuen uns über Ihre Nachricht!</p>
+							</header>
+							<!--ul class="actions vertical">
+								<li><a href="#" class="button fit special">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul-->
+						</div>
+					</section>
